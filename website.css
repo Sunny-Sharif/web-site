@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+}
+
+.menu-list li {
+    padding: 4px 16px;
+    border-right: 1px solid black;
+    cursor: pointer;
+}
+
+.menu {
+    padding-right: 100px;
+}
+
+.menu-list li:last-child {
+    border: none;
+}
